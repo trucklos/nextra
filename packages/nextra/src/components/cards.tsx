@@ -89,6 +89,7 @@ export function Card({
         {title}
         {animatedArrow}
       </span>
+      {children}
     </NextLink>
   )
 }
